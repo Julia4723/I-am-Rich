@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         setupView()
-        
     }
 }
 
@@ -40,6 +39,7 @@ private extension ViewController {
             view.addSubview(subView)
         }
     }
+    
     func setupLabel() {
         labelText.text = "I am Rich"
         labelText.textColor = .white
